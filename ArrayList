@@ -1,0 +1,78 @@
+//How to create ArrayLists
+import java.util.ArrayList;
+import java.util.Arrays;
+
+
+
+public static void main(String[]args)
+
+//Creating an arraylist variable
+ArrayList arrayListOne = new ArrayList();
+
+//This allows you to only add Strings to the ArrayList
+ArrayList <String> student = new ArrayList <String>();
+
+//This is how you add elements to an ArrayList
+students.add("Mary Jane");(index value 0)
+students.add("Paul Smith");(index value 1)
+students.add("Aimee Daly");(index value 2)
+
+//This also adds an element in a specific position index value 3
+students.add(3,"Jack Byrne");
+
+//You retrieve values in an ArrayList with 'get'
+//ArrayListStudents.size() returns the size of the ArrayList
+for(int i = 0; i < students.size(); i++)
+{
+System.out.println(names.get(i));
+}
+
+//You can replace a value using the set method
+students.set(0,"Adam Ryan);
+
+//You can remove an item with remove
+students.remove(2);
+
+//You can also remove the first and second item with the removeRange method
+students.removeRange(0,1);
+
+//When you print out the ArrayList itself the toString method is called
+System.out.println(students);
+[thelistofstudents]
+
+//You can create an ArrayList without stating the type of values it contains
+ArrayList studentsCopy = new ArrayList();
+ArrayList studentsBackUp = new ArrayList();
+
+//Adding variable values to an ArrayList
+String John Ryan = "John Ryan";
+students.add(John Ryan);
+
+//addAll adds everything in one ArrayList to another
+studentsCopy.addAll(students);
+System.out.println(studentsCopy);
+
+//Contains returns a boolean value based off of whether the ArrayList contains the specified object
+if(students.contains("John Ryan");
+System.out.println("John is here");
+
+//Clear deletes everything in the ArrayList
+students.clear();
+
+//Here is a list of commonly used ArrayList Methods
+Method                                       Description
+add(T element)                        Adds a new element to the ArrayList     
+
+remove(T element)                     Removes the first occurrence of the element
+
+get(int index)                        Return the element at the specified index
+
+set(int index T element)              Replace the element at the specified index with the new element
+
+size()                                Returns the number of elements in the ArrayList
+
+isEmpty()                             Returns true if the ArrayList is 0, false otherwise
+
+clear()                               Removes all the elements from the ArrayList
+
+Collections.sort(List)                Puts ArrayList into alphabetical order
